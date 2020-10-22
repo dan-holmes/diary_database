@@ -1,0 +1,5 @@
+<form method='post' action='/entries/<%= @entry[0]["id"] %>'>
+  <h1><%= @entry[0]["title"] %></h1>
+  <textarea rows="10" cols="50" id='body' name='body'><%= @entry[0]["body"] %></textarea><br><br>
+  <input type='submit' id='Submit'>
+</form>

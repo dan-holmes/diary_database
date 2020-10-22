@@ -1,4 +1,4 @@
-# Diary App -
+# Diary App
 
 ## Installation
 

@@ -1,2 +1,4 @@
 <h1><%= @entry[0]["title"] %></h1>
-<p><%= @entry[0]["body"] %></p>
+<div style="white-space: pre-wrap;"><%= @entry[0]["body"] %></div>
+<a href='/entries'>Back</a> 
+<a href='/entries/<%= @entry[0]["id"] %>/edit'>Edit</a>
