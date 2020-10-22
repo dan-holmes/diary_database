@@ -1,0 +1,5 @@
+<% @all_entries.each do |entry| %>
+<ul>
+  <li><a href='/entries/<%= entry["id"] %>'><%= entry["title"] %></a></li>
+</ul>
+<% end %>

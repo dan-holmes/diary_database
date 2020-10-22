@@ -15,6 +15,7 @@
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
 ENV["RACK_ENV"] = "test"
+require_relative "./features/test_helper.rb"
 
 # Bring in the contents of the `app.rb` file. The below is equivalent to: require_relative '../app.rb'
 require File.join(File.dirname(__FILE__), "..", "app.rb")
